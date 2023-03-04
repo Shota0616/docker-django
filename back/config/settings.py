@@ -158,7 +158,7 @@ AUTH_USER_MODEL = "user.MyUser"
 ACCOUNT_USER_MODEL_USERNAME_FIELD = None
 
 # django-allauth
-SITE_ID = 1 
+SITE_ID = 1
 
 LOGIN_URL = '/account/login/'
 # ログイン/ログアウト時のリダイレクト先

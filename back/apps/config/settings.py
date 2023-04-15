@@ -37,8 +37,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    "user.apps.UserConfig",
-    "app.apps.AppConfig",
+    "apps.user.apps.UserConfig",
+    "apps.app.apps.AppConfig",
     'widget_tweaks',
     'allauth',
     'allauth.account',
